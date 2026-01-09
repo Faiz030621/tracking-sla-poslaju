@@ -1,0 +1,5 @@
+- [x] Fix currentTab initialization from 'csv' to 'excel'
+- [x] Fix switchTab function: change 'csvTab' to 'excelTab', 'csvSection' to 'excelSection', tab === 'csv' to tab === 'excel'
+- [x] Fix csvFile reference to excelFile in startNewImport function
+- [x] Test tab switching functionality
+- [x] Add ready_for_self_collect detection in api.php and PoslajuTrackingApi.php

@@ -1,0 +1,21 @@
+
+{
+    "name": "afzafri/poslaju-tracking-api",
+    "description": "Return JSON formatted string of Poslaju Tracking details",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Afif Zafri",
+            "email": "afzafri@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "phpoffice/phpspreadsheet": "^1.29"
+    },
+    "autoload": {
+        "psr-4": {
+            "Afzafri\\": "src/"
+        }
+    }
+}
